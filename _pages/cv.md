@@ -11,37 +11,45 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* BTech in Mechanical Engineering, Veermata Jijabai Technological Institute, 2019-2023
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
+* Project Research Assistant (June 2023 - )
+  * National Centre of Aerospace Innovation snd Resarch (NCAIR), IIT Bombay
+  * Duties included: Numerical Analysis of CFRP Composites
+ 
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
+Internship
+======
+* FOSSEE Summer Fellowship (May 2022 - July 2022 )
+  * IIT Bombay
+  * Simulating flow through a Y-Splitter using open source CFD code OpenFOAM
+  * K-epsilon Turbulence Model
+ 
+Projects
+======
+* 15th Rank in AIAA D/B/F 2022, Wichita, Kansas, USA (September 2021 - April 2022 )
+  * AeroVJTI, Veermata Jijabai Technological Institute
+  * Fabrication of a 8 ft by 6 ft RC Airplane capable of delivering Vaccine Vials
+  * Aerodynamic Analysis using XFLR to design the airplane configuration and sizing of wings and control surfaces
+  * Manufacturing of specific parts using 3D Printing
+
+  
+Skills
+======
+* Python 
+* Ansys
+* OpenFOAM
+* Fenicsx
+
+
+<!---
 Talks
 ======
   <ul>{% for post in site.talks %}
@@ -57,3 +65,4 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+--->
