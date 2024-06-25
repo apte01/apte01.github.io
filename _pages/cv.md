@@ -12,6 +12,7 @@ redirect_from:
 Education
 ======
 * BTech in Mechanical Engineering, Veermata Jijabai Technological Institute, 2019-2023
+* CGPA: 8.26
 
 Work experience
 ======
