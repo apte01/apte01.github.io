@@ -1,0 +1,19 @@
+.copy-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #c6cdc7e4;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+.copy-button:focus {
+    outline: none;
+}
+
+pre {
+    position: relative;
+}
