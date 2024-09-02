@@ -14,6 +14,6 @@ permalink: /
     </div>
     <div class="circle-image">
         
-        <img src="{{ site.baseurl }}//images/prof_pic.jpg" alt="Circular Image">
+        <img src="{{ site.baseurl }}/images/prof_pic.jpg" alt="Circular Image">
     </div>
 </div>
