@@ -32,7 +32,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 1000px;
   padding: 0 10px;
   width: 100%;
 }
@@ -1138,6 +1138,116 @@ Modules - reusable parts of our design
     transform: translateX(0);
   }
 }
+
+
+/* home page---------------------------------------------*/
+.two-column-layout {
+  display: flex;
+  align-items: center; /* Aligns items vertically center */
+  justify-content: space-between; /* Distributes space evenly */
+  gap: 20px; /* Space between the image and text */
+  padding: 20px; /* Optional padding around the layout */
+}
+
+.left-column, .right-column {
+  flex: 1; /* Each column takes up equal space */
+}
+
+.circle-image {
+  width: 400px; /* Set the size of the circle */
+  height: 400px; /* Same as width to make it circular */
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-image img {
+  width: 100%;
+  height: auto;
+}
+
+.right-column p {
+  margin: 0; /* Remove default margins from text */
+}
+
+/* home page---------------------------------------------*/
+
+
+
+// body {
+// 	background-color: #f8fafc;
+// }
+
+// .container {
+// 	padding: 2rem;
+// }
+
+.slider-wrapper {
+	position: relative;
+	max-width: 48rem;
+	margin: 0 auto;
+}
+
+.slider {
+	display: flex;
+	aspect-ratio: 16 / 9;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+	border-radius: 0.5rem;
+	-ms-overflow-style: none; /* Hide scrollbar IE and Edge */
+	scrollbar-width: none; /* Hide scrollbar Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.slider::-webkit-scrollbar {
+	display: none;
+}
+
+.slider img {
+	flex: 1 0 100%;
+	scroll-snap-align: start;
+	object-fit: cover;
+}
+
+.slider-nav {
+	display: flex;
+	column-gap: 1rem;
+	position: absolute;
+	bottom: 1.25rem;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+
+.slider-nav a {
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background-color: #fff;
+	opacity: 0.75;
+	transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+	opacity: 1;
+}
+
+.slider img,
+.slider video {
+	flex: 1 0 100%;
+	scroll-snap-align: start;
+	object-fit: cover;
+	border-radius: 0.5rem;
+}
+
+.slider video {
+	object-fit: fill; /* Adjust this depending on how you want videos to fit */
+}
+
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
