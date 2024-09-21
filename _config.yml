@@ -105,6 +105,6 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  events:
+  gallery:
     output: true
     permalink: /:collection/:path/

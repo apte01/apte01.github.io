@@ -1,12 +1,11 @@
 ---
 layout: default
-title: Events
-permalink: /events/
+title: Gallery
+permalink: /gallery/
 ---
-<script src="{{ site.baseurl }}/assets/myfile.js"></script>
-
 
 <section class="container">
+	<h3>International Conference on Composites: Design, Processing, Manufacturing and Health Monitoring, IIT Mandi</h3>
 	<div class="slider-wrapper">
 		<div class="slider">
 			<!-- Image Slide -->
@@ -28,15 +27,21 @@ permalink: /events/
 <br>
 
 <section class="container">
+	<h3>Test Flights of AeroVJTI's RC Aircraft which secured 19th rank at AIAA DBF 2022</h3>
 	<div class="slider-wrapper">
 		<div class="slider">
 			<video id="slide-4" controls>
+				<source src="/images/aiaa/takeoff.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+			<video id="slide-5" controls>
 				<source src="/images/aiaa/test_flight.mp4" type="video/mp4">
 				Your browser does not support the video tag.
 			</video>
 		</div>
 		<div class="slider-nav">
 			<a href="#slide-4"></a>
+			<a href="#slide-5"></a>
 		</div>
 	</div>
 </section>
