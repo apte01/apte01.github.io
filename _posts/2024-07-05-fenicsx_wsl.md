@@ -62,10 +62,13 @@ sudo apt install jupyter
 4. To visualize in jupyter notebook
 ```bash
 pip install --upgrade pyvista ipywidgets ipygany
-sudo apt install libgl1-mesa-glx xvfb
+sudo apt-get -y install libglu1 libxcursor-dev libxft2 libxinerama1 libfltk1.3-dev libfreetype6-dev libgl1-mesa-dev libgl1-mesa-glx xvfb
 pip install trame
 pip install trame-vuetify
 pip install --upgrade trame-vtk
+pip install "pandas==1.5.3"
+pip install openpyxl
+
 ```
 
 
