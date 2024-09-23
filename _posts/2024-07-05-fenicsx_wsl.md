@@ -68,7 +68,6 @@ pip install trame-vuetify
 pip install --upgrade trame-vtk
 pip install "pandas==1.5.3"
 pip install openpyxl
-
 ```
 
 
