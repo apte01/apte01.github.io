@@ -108,3 +108,4 @@ collections:
   gallery:
     output: true
     permalink: /:collection/:path/
+

@@ -9,7 +9,7 @@ permalink: /
 <div class="two-column-layout">
     <div class="left-column">
         <div class="right-column">
-            <p>Hello! This is Chaitanya Apte. I am a Research Assistant at National Centre of Aerospace Innovation and Research, IIT Bombay. I work on numerical simulations using Finite Element Analysis.</p>
+            <p>Hello! I am a Mechanical Engineer currently working as a Research Assistant at the National Centre of Aerospace Innovation and Research, IIT Bombay. My area of interest is Computational Mechanics. I have worked on several solid and fluid problems using commercial packages like Ansys as well as open-source codes like OpenFOAM and Fenicsx. Looking for more opportunities to explore this field.</p>
         </div>
     </div>
     <div class="circle-image">
